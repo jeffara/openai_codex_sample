@@ -89,7 +89,7 @@ const handleSubmit = async (e) => {
     console.log("data.get(prompt)");
     console.log(data.get("prompt"));
 
-    const response = await fetch("http://localhost:3000", {
+    const response = await fetch("https://openai-codex-sample.onrender.com/", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
